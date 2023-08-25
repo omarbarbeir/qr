@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./notes.css">
+    <link rel="stylesheet" href="./output.css">
+    <title>QR Code</title>
+</head>
+<body class="bg-gray-800">
+    
+
+    <div id="container" class="w-2/4">
+        <h1 class="italic text-center text-red-700">Enter Your Url Or Text</h1>
+        <input class="italic font-bold bg-gray-200 p-1 rounded-lg" type="text" placeholder="TEXT OR URL" id="qrtext">
+        
+        <div id="imgbox">
+            <img src="" id="qrimg">
+        </div>
+        
+        
+        <button onclick="generateQR()" id="btn" class="bg-green-300 rounded-xl text-blue-950">Generate QR Code</button>
+    </div>
+
+
+
+
+
+
+
+
+
+<script src="./notes.js"></script>  
+<script src="https://kit.fontawesome.com/41a38439e1.js" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>
